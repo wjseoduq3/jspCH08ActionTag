@@ -11,6 +11,7 @@
 	<jsp:forward page="forwardOk.jsp">
 		<jsp:param value="tiger" name="mid"/>
 		<jsp:param value="12345" name="mpw"/>
+		<jsp:param value="date.toLocaleString" name="date" />
 	</jsp:forward>
 </body>
 </html>
